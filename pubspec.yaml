@@ -11,7 +11,7 @@ dependencies:
   gql_code_builder:
     git:
      url: https://github.com/bgparkerdev/gql-code-builder-clone.git
-     ref: 2f868db6b54c796759a8c14fb0d56de4ff97d6b8 
+     ref: 6ce94ea29b8dbfb914f610baf1cdee32f9a7e835
   built_collection: ^5.0.0
   code_builder: ^4.0.0
   build: ^2.0.0

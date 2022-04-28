@@ -3,11 +3,15 @@ version: 0.5.0-dev.10
 homepage: https://ferrygraphql.com/
 description: Generated types for Ferry GraphQL Client
 repository: https://github.com/gql-dart/ferry
+publish_to: none
 environment:
   sdk: '>=2.12.0 <3.0.0'
 dependencies:
   gql: ^0.13.0
-  gql_code_builder: ^0.5.0
+  gql_code_builder:
+    git:
+     url: https://github.com/bgparkerdev/gql-code-builder-clone.git
+     ref: 2f868db6b54c796759a8c14fb0d56de4ff97d6b8 
   built_collection: ^5.0.0
   code_builder: ^4.0.0
   build: ^2.0.0
